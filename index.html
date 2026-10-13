@@ -6,19 +6,19 @@
 <meta property="og:title" content="Ziad Elfeky · Credentials &amp; Qualifications"/>
 <meta property="og:description" content="Performance &amp; rehabilitation coach. 10 years coaching, internationally certified."/>
 <meta name="description" content="Credentials and qualifications of Ziad Elfeky, performance and rehabilitation coach."/>
-<meta name="theme-color" content="#111111"/>
+<meta name="theme-color" content="#0f0e0c"/>
 <title>Ziad Elfeky · Credentials</title>
 <style>
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400&family=DM+Serif+Display:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400&family=Poppins:wght@300;400;500;600&display=swap');
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
-:root{--ink:#111111;--mid:#555555;--soft:#999999;--rule:#e2dfd9;--bg:#f6f4f0;--white:#ffffff;--gold:#b8966a;--gold-dark:#9a7c52;--gold-faint:#faf6f0;}
-body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--ink);line-height:1.6;min-height:100vh;}
+:root{--ink:#f1ece2;--mid:#a39d91;--soft:#7d776d;--rule:rgba(241,236,226,.12);--bg:#0f0e0c;--white:#181613;--gold:#c9a96e;--gold-dark:#dcc08e;--gold-faint:#211c15;}
+body{font-family:'Poppins',system-ui,-apple-system,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6;min-height:100vh;}
 
 /* HEADER */
 .hero{background:var(--ink);color:#fff;padding:56px 24px 48px;text-align:center;}
 .hero-monogram{width:72px;height:72px;border-radius:50%;background:rgba(255,255,255,.06);border:1px solid rgba(184,150,106,.4);display:flex;align-items:center;justify-content:center;margin:0 auto 20px;}
-.hero-monogram span{font-family:'DM Serif Display',serif;font-size:26px;color:var(--gold);}
-.hero-name{font-family:'DM Serif Display',serif;font-size:clamp(28px,6vw,40px);font-weight:400;line-height:1.1;}
+.hero-monogram span{font-family:'Lora',Georgia,serif;font-size:26px;color:var(--gold);}
+.hero-name{font-family:'Lora',Georgia,serif;font-size:clamp(28px,6vw,40px);font-weight:400;line-height:1.1;}
 .hero-title{font-size:12px;font-weight:500;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);margin-top:10px;}
 .hero-sub{font-size:13px;color:rgba(255,255,255,.4);font-style:italic;margin-top:12px;max-width:400px;margin-left:auto;margin-right:auto;line-height:1.6;}
 
@@ -35,7 +35,7 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--ink);line
 .cat{margin-bottom:38px;}
 .cat-header{display:flex;align-items:center;gap:12px;margin-bottom:18px;}
 .cat-icon{width:38px;height:38px;border-radius:9px;background:var(--ink);display:flex;align-items:center;justify-content:center;flex-shrink:0;}
-.cat-title{font-family:'DM Serif Display',serif;font-size:20px;font-weight:400;}
+.cat-title{font-family:'Lora',Georgia,serif;font-size:20px;font-weight:400;}
 
 .cert-list{display:flex;flex-direction:column;gap:0;}
 .cert{background:var(--white);border:1px solid var(--rule);border-radius:0;padding:16px 20px;display:flex;align-items:flex-start;gap:14px;transition:border-color .15s;}
@@ -50,12 +50,12 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--ink);line
 /* STATS STRIP */
 .stats{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:0 auto 44px;max-width:520px;}
 .stat{background:var(--white);border:1px solid var(--rule);border-radius:10px;padding:18px 12px;text-align:center;}
-.stat-num{font-family:'DM Serif Display',serif;font-size:28px;color:var(--ink);line-height:1;}
+.stat-num{font-family:'Lora',Georgia,serif;font-size:28px;color:var(--ink);line-height:1;}
 .stat-label{font-size:11px;color:var(--soft);letter-spacing:.06em;text-transform:uppercase;margin-top:6px;}
 
 /* FOOTER */
 .footer{background:var(--ink);color:rgba(255,255,255,.28);text-align:center;padding:22px;font-size:12px;letter-spacing:.04em;line-height:1.8;}
-.footer-name{font-family:'DM Serif Display',serif;font-size:14px;color:var(--gold);display:block;margin-bottom:3px;}
+.footer-name{font-family:'Lora',Georgia,serif;font-size:14px;color:var(--gold);display:block;margin-bottom:3px;}
 
 .apply{display:block;text-align:center;margin:8px 0 0;background:var(--ink);color:#fff;text-decoration:none;font-size:14px;font-weight:600;letter-spacing:.04em;padding:16px;border-radius:12px;transition:background .18s;}
 .apply:hover{background:#2a2a2a;}
@@ -65,6 +65,22 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--ink);line
   .stat-num{font-size:22px;}
   .stat-label{font-size:9px;}
 }
+
+/* ---- Dark brand layer ---- */
+:root{color-scheme:dark;}
+body{font-weight:300;-webkit-font-smoothing:antialiased;}
+input,select,textarea{color:var(--ink);}
+input::placeholder,textarea::placeholder{color:#6b665d;}
+.hdr,.hero{background:var(--bg) !important;color:var(--ink) !important;border-bottom:1px solid var(--rule);}
+.footer{background:var(--bg) !important;border-top:1px solid var(--rule);color:var(--soft) !important;}
+.btn-primary,.apply{background:var(--gold) !important;color:#15120e !important;font-weight:500 !important;}
+.btn-primary:disabled{background:#4a453d !important;color:#9a948a !important;}
+.apply:hover{filter:brightness(1.08);}
+.scale-btn.on,.rating-btn.on,.score-badge{background:var(--gold) !important;color:#15120e !important;border-color:var(--gold) !important;}
+.client-card.unread .client-name::after{color:#15120e !important;}
+.cat-icon{background:var(--white) !important;border:1px solid var(--rule);}
+.nav{border-bottom-color:var(--rule) !important;}
+.lbl,.cert-name{font-weight:500 !important;}
 </style>
 </head>
 <body>
